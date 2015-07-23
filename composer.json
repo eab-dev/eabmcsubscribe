@@ -1,0 +1,19 @@
+{
+    "name": "eab/mailchimpsubscribe",
+    "description": "eZ Publish legacy extension providing a subscribe form for Mailchimp",
+    "type": "ezpublish-legacy-extension",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Enterprise AB Ltd",
+            "homepage": "http://eab.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ezsystems/ezpublish-legacy-installer": "*"
+    },
+    "extra": {
+        "ezpublish-legacy-extension-name": "eabmcsubscribe"
+    }
+}
