@@ -72,6 +72,12 @@ For example:
 
         {include uri="design:mailchimp/signup.tpl" consent="I agree to everything"}
 
+* To change the label of the signup button override `design/standard/templates/mailchimp/subscribe.tpl`
+in your own design template and add a `signup` parameter to the
+`{include uri="design:mailchimp/signup.tpl"}` line. For example:
+
+        {include uri="design:mailchimp/signup.tpl" signup="Sign me up!"}
+
 * To disable the ReCaptcha widget edit `settings/override/mailchimp.ini.append.php`:
 
         [RecaptchaSettings]
