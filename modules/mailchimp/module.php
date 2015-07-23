@@ -10,6 +10,10 @@ $ViewList = array(
     'thanks' => array(
         'script'    => 'thanks.php',
         'functions' => array( 'subscribe' )
+    ),
+    'welcome' => array(
+        'script'    => 'welcome.php',
+        'functions' => array( 'subscribe' )
     )
 );
 
