@@ -8,20 +8,20 @@
 <form id="signup" action={"mailchimp/subscribe"|ezurl} method="post">
     <div class="block">
         <label for="fname">First name:</label>
-        <input type="text" name="fname" id="fname" required="required"/></label>
+        <input type="text" name="fname" id="fname" required="required"/>
     </div>
     <div class="block">
         <label for="lname">Last name:</label>
-        <input type="text" name="lname" id="lname" required="required"/></label>
+        <input type="text" name="lname" id="lname" required="required"/>
     </div>
     <div class="block">
         <label for="email">Email address:</label>
-        <input type="email" name="email" id="email" required="required"/></label>
+        <input type="email" name="email" id="email" required="required"/>
     </div>
     {if $consent}
     <div class="block">
         <label for="consent">{$consent|wash}</label>
-        <input type="checkbox" name="consent" id="consent" value="1"/></label>
+        <input type="checkbox" name="consent" id="consent" value="1"/>
     </div>
     {else}
     <input type="hidden" name="consent" value="1"/>
